@@ -1,0 +1,29 @@
+
+.body{background-color: rgb(36, 36, 53); }
+.head{
+	color: rgb(159, 159, 175);
+	background-color: rgb(130, 71, 199);
+	display: flex;
+	justify-content: center;
+	
+}
+.head1 {
+	color: rgb(230, 153, 53);
+	background-color: rgb(136, 78, 78);
+	display: flex;
+	justify-content: center;
+	height: 50vh;
+	width: 40%;
+	
+}
+.paragraph {
+	color: rgb(102, 100, 109);
+	background-color: rgb(58, 14, 14);
+}
+.demo {
+	background-color: rgb(173, 147, 197);
+	color: rgb(136, 10, 27);
+	justify-content: center;
+	height: 10vh;
+	width: 50%;
+}
