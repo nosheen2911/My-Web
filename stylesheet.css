@@ -40,7 +40,8 @@
 	background-color: rgb(30, 206, 206);
 	width: 30%;
 	height: 50%; 
-	display: flex;
+	margin-top: 100px;
+margin-bottom: 400px;
 
 }
 .list{
@@ -49,7 +50,7 @@
 	height: 50%;
 	margin-left: 60px;
 	margin-right: 300px;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: 70px;
 
 }
