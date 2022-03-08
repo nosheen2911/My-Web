@@ -38,12 +38,13 @@
 } */
 .parentdiv2{
 	background-color: rgb(30, 206, 206);
-	
-
+	width: 50%;
+	height: 50%;
 }
 .list{
 	background-color: rgb(116, 23, 23);
-	margin: 300px 100px 100px 400px ;
 	
+	height: 70%;
+	width: 30%;
 
 }
