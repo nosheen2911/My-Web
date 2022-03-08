@@ -39,11 +39,11 @@
 .parentdiv2{
 	background-color: rgb(30, 206, 206);
 	width: 50%;
-	height: 50%;
+	height: 70vh;
 }
 .list{
 	background-color: rgb(116, 23, 23);
-	height: 70%;
+	height: 50vh;
 	width: 30%;
 	margin: 40px 30px 50px 100px;
 
