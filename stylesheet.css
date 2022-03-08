@@ -42,6 +42,7 @@
 	height: 70vh;
 	margin-top: 100px;
 	margin-left: 200px;
+	position: absolute;
 	
 }
 .list{
@@ -50,6 +51,7 @@
 	width: 30%;
 	margin-top: 100px;
 	margin-left: 100px;
-	padding: 30px;
+	padding-top: 30px;
+position: absolute;
 
 }
