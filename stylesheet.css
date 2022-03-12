@@ -43,7 +43,7 @@
 	margin-top: 100px;
 	margin-left: 200px;
 
-	
+
 }
 .list{
 	background-color: rgb(116, 23, 23);
@@ -55,4 +55,11 @@
 
 
 
+}
+.list:hover {
+	cursor:pointer ;
+	color: aqua;
+	background-color: black;
+	height: 50%;
+	border-radius: 40%;
 }
