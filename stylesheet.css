@@ -38,20 +38,14 @@
 } */
 .parentdiv2{
 	background-color: rgb(30, 206, 206);
-	width: 50%;
-	height: 70vh;
-	margin-top: 100px;
-	margin-left: 200px;
+	
 
 
 }
 .list{
 	background-color: rgb(116, 23, 23);
-	height: 50vh;
-	width: 30%;
-	margin-top: 200px;
-	margin-left: 100px;
-	padding-top: 30px;
+
+	display: flex;
 
 
 
@@ -62,4 +56,5 @@
 	background-color: black;
 	height: 50%;
 	border-radius: 40%;
+	transition: all 5s linear;
 }
