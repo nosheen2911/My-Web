@@ -71,5 +71,5 @@ height: 8vh;
 	  height: 15vh;
 	  border-radius: 5cm;
 	  transition: all 4s linear;
-	  transform: rotatey(120deg);
+	  transform: rotate3d(120deg);
 }
