@@ -61,4 +61,13 @@
 .nav{
 	background-color: rgb(29, 160, 73);
 height: 8vh;
+
+}
+
+.nav:hover{
+	cursor: pointer;
+	 color: brown;
+	  background-color: rgb(148, 100, 28);
+	  height: 15vh;
+	  border-radius: 5cm;
 }
