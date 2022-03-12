@@ -50,11 +50,15 @@
 
 
 }
-.list:hover {
+/*.list:hover {
 	cursor:pointer ;
 	color: aqua;
 	background-color: black;
 	height: 50%;
 	border-radius: 40%;
 	transition: all 5s linear;
+} */
+.nav{
+	background-color: rgb(29, 160, 73);
+height: 8vh;
 }
