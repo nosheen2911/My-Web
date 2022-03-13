@@ -75,5 +75,9 @@ height: 8vh;
 }
 .paragraph:hover{
 cursor: pointer;
-
+color: black;
+background-color: rgb(50, 139, 139);
+height: 10vh;
+border-radius: 2cm ;
+transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
