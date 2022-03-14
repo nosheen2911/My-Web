@@ -85,4 +85,13 @@ transform: matrix3d(250deg);
 .gallery{
 	display: flex;
 	justify-content: flex-end;
+
+}
+.services{
+	display: flex;
+	justify-content: flex-end;
+}
+.contact{
+	display: flex;
+	justify-content: flex-end;
 }
