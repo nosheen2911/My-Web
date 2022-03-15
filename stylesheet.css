@@ -175,11 +175,20 @@ html,body{
 	cursor: all-scroll;
 }
 .moto:hover{
-	background-color: rgb(224, 212, 196);
-	color: rgb(168, 40, 40);
+	background-color: rgb(175, 29, 53);
+	color: rgb(207, 188, 188);
 	cursor: alias;
 }
 .interest:hover{
 	background-color: rgb(111, 158, 158);
 	color: rgb(47, 7, 83);
 	cursor: all-scroll;
+}
+.name::after{
+		content: inherit;
+		position: absolute;
+		width: 0px;
+		height: 30px;
+		background-color: aqua;
+		transition: all 1s linear;
+}
