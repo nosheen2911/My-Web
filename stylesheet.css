@@ -101,10 +101,10 @@ transform: matrix3d(250deg);
 
 html,body{
 	margin: 0;
-	padding: o;
+	padding: 0;
 	font-size: 15px;
 	font-family: Tahoma;
-	background-image: url("pictures/lillyflowers.jpg") ;
+	background-image: url("sea.jpg") ;
 	background-size: cover;
 }
 .about{
@@ -184,11 +184,9 @@ html,body{
 	color: rgb(47, 7, 83);
 	cursor: all-scroll;
 }
-.name::after{
-		content: inherit;
-		position: absolute;
-		width: 0px;
-		height: 30px;
-		background-color: aqua;
-		transition: all 1s linear;
+.name:hover{
+	color: rgb(16, 122, 87);
+	font-style: italic;
+	border: #fff;
+	border-radius: 20px;
 }
