@@ -93,7 +93,9 @@ transform: matrix3d(250deg);
 
 
 
-
+:root {
+	--color:aqua
+}
 
 
 
@@ -118,7 +120,7 @@ html,body{
 .interest{
 	padding: 10px 60px;
 	margin: 10px 150px;
-	border-radius: 21px;
+	border-radius: 20px;
 }
 .about{
 	margin-top: 0;
@@ -135,7 +137,7 @@ html,body{
 	border-radius: 50%;
 	border: 10px solid #fff;
 	box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, .5);
-	background: orange;
+	background: var(--color);
 }
 .header .logo img {
 	width: 100%;
@@ -143,27 +145,26 @@ html,body{
 	border-radius: 50%;
 }
 .header hr {
-	border-color: orange;
-	width: 100pix;
+	border-color: var(--color);
+	width: 10pix;
 }
 .header h1{
-	color: orange;
+	color: var(--color);
 }
 .about{
-	background: #fff;
+	background: rgb(63, 53, 53);
 	box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.2);
 }
 .moto{
-	background: orange;
+	background: var(--color);
 	color: #fff;
 }
 .interest{
-	background: #fff;
-	color: #000;
+	background: rgb(63, 53, 53);
 	box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.2);
 }
 .footer{
-	background: orange;
+	background: var(--color);
 	color: #fff;
 	text-align: center;
 	line-height: 40px;
