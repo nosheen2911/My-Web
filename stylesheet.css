@@ -94,7 +94,7 @@ transform: matrix3d(250deg);
 
 
 :root {
-	--color:aqua
+	--color:orange
 }
 
 
@@ -152,7 +152,7 @@ html,body{
 	color: var(--color);
 }
 .about{
-	background: rgb(63, 53, 53);
+	background: hsl(0, 27%, 88%);
 	box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.2);
 }
 .moto{
@@ -160,7 +160,7 @@ html,body{
 	color: #fff;
 }
 .interest{
-	background: rgb(63, 53, 53);
+	background: hsl(0, 27%, 88%);
 	box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.2);
 }
 .footer{
@@ -169,3 +169,17 @@ html,body{
 	text-align: center;
 	line-height: 40px;
 }
+.about:hover{
+	background-color: rgb(111, 158, 158);
+	color: rgb(47, 7, 83);
+	cursor: all-scroll;
+}
+.moto:hover{
+	background-color: rgb(224, 212, 196);
+	color: rgb(168, 40, 40);
+	cursor: alias;
+}
+.interest:hover{
+	background-color: rgb(111, 158, 158);
+	color: rgb(47, 7, 83);
+	cursor: all-scroll;
