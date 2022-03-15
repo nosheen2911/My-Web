@@ -50,7 +50,7 @@
 
 
 }
-.list:hover {
+ .list:hover {
 	cursor:pointer ;
 	color: aqua;
 	background-color: black;
@@ -72,8 +72,7 @@ height: 8vh;
 	  border-radius: 5cm;
 	  transition: all 4s linear;
 	  transform: rotate3d(120deg);
-}
-.paragraph:hover{
+}.paragraph:hover{
 cursor: pointer;
 color: black;
 background-color: rgb(180, 163, 140);
@@ -86,12 +85,4 @@ transform: matrix3d(250deg);
 	display: flex;
 	justify-content: flex-end;
 
-}
-.services{
-	display: flex;
-	justify-content: flex-end;
-}
-.contact{
-	display: flex;
-	justify-content: flex-end;
 }
