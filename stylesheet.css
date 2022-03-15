@@ -1,5 +1,5 @@
 
-.body{background-color: rgb(36, 36, 53); }
+/* .body{background-color: rgb(36, 36, 53); }
 .head{
 	color: rgb(159, 159, 175);
 	background-color: rgb(130, 71, 199);
@@ -85,4 +85,23 @@ transform: matrix3d(250deg);
 	display: flex;
 	justify-content: flex-end;
 
+} */
+
+
+
+
+
+
+
+
+
+
+
+html,body{
+	margin: 0;
+	padding: o;
+	font-size: 15px;
+	font-family: Tahoma;
+	background-image: url("my-web/lillyflowers.jpg") ;
+	background-size: cover;
 }
