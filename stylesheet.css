@@ -105,3 +105,35 @@ html,body{
 	background-image: url("my-web/lillyflowers.jpg") ;
 	background-size: cover;
 }
+.about{
+	padding: 10px 60px;
+	margin: 10px 150px;
+	border-radius: 20px;
+}
+.moto{
+	padding: 10px 60px;
+	margin: 10px 150px;
+	border-radius: 20px;
+}
+.interest{
+	padding: 10px 60px;
+	margin: 10px 150px;
+	border-radius: 20px;
+}
+.about{
+	margin-top: 0;
+}
+.header{
+	text-align: center;
+	overflow: hidden;
+	padding-top: 20px;
+}
+.header > .logo{
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 10px;
+	box-shadow: 1px 1px 10px 0px rgba(red, green, blue, alpha);
+	background: orange;
+}
