@@ -130,7 +130,7 @@ html,body{
 	overflow: hidden;
 	padding-top: 20px;
 }
-.header > .logo{
+.header .logo{
 	margin: 0 auto;
 	width: 200px;
 	height: 200px;
@@ -141,12 +141,11 @@ html,body{
 }
 .header .logo img {
 	width: 100%;
-	overflow: hidden;
 	border-radius: 50%;
 }
 .header hr {
 	border-color: var(--color);
-	width: 10pix;
+	width: 100px;
 }
 .header h1{
 	color: var(--color);
@@ -200,13 +199,14 @@ html,body{
 		transition: all 2s linear;
 	
 }
-.name:hover:before {
+.name:hover:after {
 	content: "";
 	position: absolute;
 	width: 270px;
 	height: 2px;
 	background-color: rgb(177, 43, 10);
 	transition: all 2s linear;
+	
 
 }
 .name{
