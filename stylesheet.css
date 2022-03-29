@@ -1,5 +1,5 @@
 
-/* .body{background-color: rgb(36, 36, 53); }
+ .body{background-color: rgb(36, 36, 53); }
 .head{
 	color: rgb(159, 159, 175);
 	background-color: rgb(130, 71, 199);
@@ -85,7 +85,7 @@ transform: matrix3d(250deg);
 	display: flex;
 	justify-content: flex-end;
 
-} */
+}
 
 
 
@@ -93,7 +93,7 @@ transform: matrix3d(250deg);
 
 
 
-/*:root {
+:root {
 	--color:orange
 }
 
@@ -328,8 +328,4 @@ html,body{
 }
 .name{
 	position: relative;
-}*/
-.navigation {
-	width: 100%;
-	float: right;
-	background-color: pink;
+}
