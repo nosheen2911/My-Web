@@ -88,13 +88,17 @@
 </head>
 <body>
     <script>
-   let a=10;
-   let b=15;
+   let a=15;
+   let b="15";
    if(a > b){
        document.write("this is true")
-   }else{
+   }else if(a < b) {
        document.write("this is false")
-   }
+   } else if (a === b){
+       document.write("this is equal")
+   } else{
+       document.write("else statement")
+   };
    /*let x=20;
    let y=15;
    if(a > b){
