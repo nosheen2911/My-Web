@@ -19,6 +19,30 @@
             height: 50px;
             
         }
+        
+.table:hover {
+	position: absolute;
+	width: 270px;
+	height: 60px;
+	background-color: rgb(186, 218, 191);
+	transition: all 2s linear;
+}
+.table:hover:before {
+		content: "";
+		position: absolute;
+		width: 260px;
+		height: 3px;
+		background-color: rgb(177, 43, 10);
+		transition: all 1s linear;
+}
+.table:hover:after {
+		content: "";
+		position: absolute;
+		width: 260px;
+		height: 3px;
+		background-color: rgb(177, 43, 10);
+		transition: all 1s linear;
+	
     </style>
     <script>
         let b = prompt();
