@@ -9,47 +9,58 @@
 </head>
 
 <body>
-    <style>
-        .table{
+   <!-- <style>
+        .table {
             background-color: rgb(204, 212, 174);
             color: rgb(185, 85, 31);
             padding: 2px;
             margin: 2;
             width: 100px;
             height: 50px;
-            
+
         }
-        
-.table:hover {
-	position: absolute;
-	width: 270px;
-	height: 60px;
-	background-color: rgb(186, 218, 191);
-	transition: all 2s linear;
-}
-.table:hover:before {
-		content: "";
-		position: absolute;
-		width: 260px;
-		height: 3px;
-		background-color: rgb(177, 43, 10);
-		transition: all 1s linear;
-}
-.table:hover:after {
-		content: "";
-		position: absolute;
-		width: 260px;
-		height: 3px;
-		background-color: rgb(177, 43, 10);
-		transition: all 1s linear;
-	
-    </style>
+
+        .table:hover {
+            position: absolute;
+            width: 270px;
+            height: 60px;
+            background-color: rgb(186, 218, 191);
+            transition: all 2s linear;
+        }
+
+        .table:hover:before {
+            content: "";
+            position: absolute;
+            width: 260px;
+            height: 3px;
+            background-color: rgb(177, 43, 10);
+            transition: all 1s linear;
+        }
+
+        .table:hover:after {
+            content: "";
+            position: absolute;
+            width: 260px;
+            height: 3px;
+            background-color: rgb(177, 43, 10);
+            transition: all 1s linear;
+        }
+    </style>-->
+    <button id="btn">add me</button>
+    <h1 id="head">hello</h1>
     <script>
-        let b = prompt();
-        for (let a = 2; 11 > a; a++) {
+        //let b = prompt();
+        //for (let a = 2; 11 > a; a++) {
             //document.write(b + "*" + a + "=" + a * b + "<br>");
-            document.write('<table border="2" class="table" ><tr><td>'+b+'</td><td>'+"*"+'</td><td>'+a+'</td><td>'+"="+'</td><td>'+a*b+'</td></tr></table>')
+            //document.write('<table border="2" class="table"><tr><td>' + b + '</td><td>' + "*" + '</td><td>' + a + '</td><td>' + "=" + '</td><td>' + 'a*b' + '</td></tr></table>')
         }
+        let btn = document.getElementById("btn");
+        let h1 = document.getElementById("head");
+        btn.addEventListener('click', function () {
+            h1.innerText = "OK Pass";
+            console.log("Ok Pass");
+        }
+
     </script>
 </body>
 
