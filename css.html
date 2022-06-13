@@ -44,5 +44,29 @@
 <br><br><br><br><br><br><br><br>
                      
         </body>
+
+
+
+
+
+        <input type="text" id="a">
+        <input type="text" id="b">
+        <button id="btn">Add me</button>
+        <h3 id="head"></h3>
+        <ul>
+            <li id="lists"></li>
+        </ul>
+        <script>
+            let input = document.getElementById("a");
+            let input2 = document.getElementById("b");
+            let btn = document.getElementById('btn');
+            let h3 = document.getElementById('head');
+            btn.addEventListener('click', function () {
+                h3.innerText = parseInt(input.value) + parseInt(input2.value);
+                lists.innerText = parseInt(input.value) + parseInt(input2.value);
+    
+            });
+    
+        </script>
         
 </html> 
