@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="TodoInput">
+    <button id="TodoBtn">Add Me</button>
+    <ul id="unorder">
+        <li></li>
+    </ul>
+    <script>
+        let input = document.getElementById("TodoInput");
+        let input1 = document.getElementById("TodoInput1");
+        let btn = document.getElementById("TodoBtn");
+        let ul = document.getElementById("unorder");
+        btn.addEventListener("click", function () {
+            let TodoInput = document.createElement("input");
+            TodoInput.setAttribute('type', 'text');
+            let TodoInput1 = document.createElement("input");
+            TodoInput1.setAttribute('type', 'checkbox');
+            let li = document.createElement("li");
+            li.appendChild(TodoInput);
+            li.appendChild(TodoInput1);
+            ul.appendChild(li);
+
+        });
+    </script>
+</body>
+
+</html>
